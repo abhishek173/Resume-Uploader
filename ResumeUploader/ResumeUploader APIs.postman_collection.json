@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "47a9e8f0-defd-4282-abfd-996d1eedc495",
+		"name": "ResumeUploader APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12628989"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/resume/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"resume",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Anand Raj",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "anand@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "2024-09-02",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "bihar",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "Male",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Bangalore",
+							"type": "text"
+						},
+						{
+							"key": "pimage",
+							"type": "file",
+							"src": "/C:/Users/HP/Desktop/Abhishek.png"
+						},
+						{
+							"key": "rdocs",
+							"type": "file",
+							"src": "/C:/Users/HP/Desktop/Coding Task.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/resume/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"resume",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
